@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game {
+    /* display: none; */
+    box-shadow: 10px 10px 20px black;
+    width: 702px;
+    height: 568px;
+    background-color: black;
+}
+
+h1 {
+    /* display: none; */
+    font-size: 50px;
+    text-align: center;
+    font-family: comic sans MS;
+    color: lightgray;
+    margin-bottom: 50px;
+}
+h3 {
+    font-family: comic sans MS;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    color: yellow;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    /* background: black; */
+    background: linear-gradient(
+        0deg,
+        rgb(7, 61, 238) 0%,
+        rgb(185, 17, 236) 100%
+    );
+}
+.pacman {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/pac1.png);
+    display: inline-block;
+}
+
+.wall {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/wall.png);
+    display: inline-block;
+}
+
+.food {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/yellowDot.png);
+    display: inline-block;
+    z-index: 200;
+}
+
+.power-pill {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/pinkDot.png);
+    display: inline-block;
+    z-index: 200;
+}
+
+.path {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/path.jpg);
+    display: inline-block;
+    z-index: 100;
+}
+.red-ghost {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/ghost-red.png);
+    display: inline-block;
+    z-index: 1000;
+}
+.green-ghost {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/ghost-green.png);
+    display: inline-block;
+}
+
+.pink-ghost {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/ghost-pink.png);
+    display: inline-block;
+}
+
+.orange-ghost {
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/ghost-orange.png);
+    display: inline-block;
+}
+
+div {
+    margin: -2px;
+    /* margin-left: 1px; */
+    /* vertical-align: top; */
+}
+
+.score {
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+}
+
+p.score {
+    /* display: none; */
+    font-size: 20px;
+    font-family: comic sans MS;
+    position: absolute;
+    text-align: center;
+    top: 7.5%;
+    color: lightgrey;
+}
+
+.hidden {
+    display: none;
+    background-color: black;
+}
+
+.game-over {
+    width: 440px;
+    height: 230px;
+    background-image: url(/images/game-over.png);
+    margin: auto;
+    width: 440px;
+    padding: 10px;
+}
