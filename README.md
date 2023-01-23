@@ -7,4 +7,4 @@ Sterowanie:
 
 Funkcje:
 - dynamiczna grafika i dźwięk
-- kilka poziomów trudności do wyboru
+- poziomy trudności zwiększane po wygraniu mapy
