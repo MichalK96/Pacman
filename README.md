@@ -1,10 +1,12 @@
 Pac-Man
 
-Gra zainspirowana klasyczną grą arcade o tym samym tytule. Celem jest zdobycie jak najwięcej punktów, jedząc wszystkie kulki na planszy i unikając duchów.
+The game is inspired by the classic arcade game of the same name. The goal is to score as many points as possible by eating all the balls on the board and avoiding the ghosts.
 
-Sterowanie:
-- strzałki na klawiaturze do poruszania się w różnych kierunkach
+Control:
 
-Funkcje:
-- dynamiczna grafika i dźwięk
-- poziomy trudności zwiększane po wygraniu mapy
+- keyboard arrows to move in different directions
+
+Functions:
+
+- dynamic graphics and sound
+- difficulty levels increased after winning a map
